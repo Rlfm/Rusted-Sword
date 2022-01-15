@@ -1,0 +1,16 @@
+PVP18 : false
+Axe s Damage reduction : true
+Forbiding Shield owning and crafting : true
+Slower Regeneraion : false
+Knockback Fishing_rod : false
+Strenght/Weakness effect reduction factor : 0.2
+Add Potion Effect to unbreaking : false
+Kenobi s style : false
+Make fireworks explose when shoted by a crossbow : false 
+Allow double jump and dash : false
+Language: English
+links:
+  - "https://github.com/Cokktail/RustedSword"
+  - "https://www.youtube.com/channel/UCL5Zc7AymHwYrAxjTJ4Dvng"
+
+

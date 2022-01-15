@@ -1,0 +1,74 @@
+name: RustedSword
+main: cok.PVP.pvp18
+version: 1.0
+api-version: 1.16
+
+commands:
+  rustedsword:
+    description: (+ on/off) to unable RustedSword
+    usage: /rustedsword on/off
+    permission : permission.rustedsword
+    aliases: rs
+
+  rustedsword panel:
+    description: RustedSword control panel
+    usage: /rustedsword panel
+    permission : permission.rustedsword
+    aliases: rs panel
+
+  rustedsword panelInfo:
+    description: Only shows panel (for non-op)
+    usage: /rustedsword panelinfo
+    permission : permission.rustedsword
+    aliases: rs panelinfo
+
+  rustedsword Info:
+    description: Explain panel's options
+    usage: /rustedsword info
+    permission : permission.rustedsword
+    aliases: rs info
+
+  rustedsword setDefault:
+    description: Set current config to default
+    usage: /rustedsword setDefault
+    permission : permission.rustedsword
+    aliases: rs setDefault
+
+  rustedsword toggle:
+    description: Unable/Disable RustedSword by default
+    usage: /rustedsword toggle
+    permission : permission.rustedsword
+    aliases: rs toggle
+
+
+
+      
+permissions:
+  plugin.rustedsword.*:
+    description: to use rustedsword and affiliate commands
+    default: op
+    
+    children:
+    rustedsword.panelInfo: true
+    rustedsword.Info : true
+    rustedsword.setDefault : op
+    rustedsword.toggle : op
+
+
+  rustedsword.panelInfo:
+    description: to use rustedsword panelInfo
+    default: true
+  
+  rustedsword.Info:
+    description: to use rustedsword Info
+    default: true
+  
+  rustedsword.setDefault:
+    description: to use rustedsword setDefault
+    default: op
+
+  rustedsword.toggle:
+    description: to use rustedsword toggle
+    default: op
+
+  
